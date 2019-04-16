@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="318dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="INFORMMASI KENDARAAN ANDA:" />
+
+    <TextView
+        android:id="@+id/aku"
+        android:layout_width="216dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="101dp" />
+
+    <TextView
+        android:id="@+id/kamu"
+        android:layout_width="202dp"
+        android:layout_height="56dp"
+        android:layout_alignStart="@+id/tiga"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="166dp" />
+
+    <TextView
+        android:id="@+id/tiga"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/empat"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-34dp"
+        android:layout_marginBottom="218dp" />
+
+    <TextView
+        android:id="@+id/empat"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/lima"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="131dp" />
+
+    <TextView
+        android:id="@+id/lima"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginBottom="41dp" />
+
+
+
+
+</RelativeLayout>
